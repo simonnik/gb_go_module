@@ -2,10 +2,7 @@ module github.com/simonnik/gb_go_module
 
 go 1.17
 
-require (
-	github.com/gorilla/websocket v1.4.2
-	github.com/valyala/fasthttp v1.30.0
-)
+require github.com/valyala/fasthttp v1.18.0
 
 require (
 	github.com/andybalholm/brotli v1.0.2 // indirect
